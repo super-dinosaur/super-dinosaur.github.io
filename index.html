@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Title -->
+	<title>Welcome to Xiaojian Ma's Homepage!</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- https://fontawesome.com/cheatsheet -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124898353-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+	  	function gtag(){dataLayer.push(arguments);}
+	  	gtag('js', new Date());
+	  	gtag('config', 'UA-124898353-1');
+	</script>
+
+	<!-- Randomly select profile pics -->
+	<script src="./rand_pics.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #122C56;">
+
+		<a class="navbar-brand" href="#">Xiaojian Ma</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+	  		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarToggle">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Publication">Publication</a>
+				</li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#Experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container" style="padding-top: 20px; padding-bottom: 10px; font-size: 19px">
+		<div class="row">
+			<div class="col-md-3", style="padding-right: 0px; padding-top: 120px">
+				<img class="img-responsive img-rounded" src="img/xiaojian.jpeg" alt="" style="max-width: 260px; border:4px solid gray">
+			</div>
+			<div class="col-md-9", style="padding-left: 25px; padding-right: 0px; padding-top: 40px; font-size: 16px">
+				
+				<br>
+				<p style="padding-top: 10px;">Welcome to my academic homepage. I am a first-year graduate student in Computer Science at
+				<b><a target="_blank" href="http://www.ucla.edu/"><font color="black">University of California, Los Angeles (UCLA)</font></a></b>
+                working with
+				Prof. <b><a target="_blank" href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a></b>
+                and 
+				Prof. <b><a target="_blank" href="http://www.stat.ucla.edu/~taogao/">Tao Gao</a></b>.
+
+				Before coming to UCLA, I finished my undergraduate study in Computer Science with honors at
+				<a target="_blank" href="http://www.tsinghua.edu.cn/"><font color="black">Tsinghua University</font></a>.<br>
+
+				<p style="padding-bottom: 12px;">
+                My research interests primarily focus on machine learning in general and its application in robot autonomy and other agent-based systems. Some of my research keywords can be found below:
+                <ul compact>
+                    <li><b>Skill Learning</b>: Reinforcement Learning, Imitation Learning, Preference-based Learning</li>
+                    <li><b>Learning Cooperation</b>: Human-AI/Robot Collaboration, Multi-Agent Coordination</li>
+                    <li><b>Multi-modal Sensing</b>: Visual Sensing, Tactile Sensing, Audio Sensing</li>
+                </ul>
+				
+				<div style="font-size: 16px;">
+                    <b>Email</b>: xm [at] cs [dot] ucla [dot] edu / <a href="https://scholar.google.com/citations?user=xZec9goAAAAJ">Google Scholar</a>
+				</div>
+				<p style="padding-bottom: 10px;">
+		        <a href="https://twitter.com/jeasinema?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @jeasinema</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+	</div>
+
+	<!-- News -->
+	<div class="container">
+		<h3 id="News" style="padding-top: 80px; margin-top: -80px;">News</h3><hr>
+
+		<ul>
+			<li style="font-size: 16px">
+                <b>[11/2019]</b> Two papers on reinforcement learning from demonstrations and causal learning are accepted to <b><font color="black">AAAI 2020</font></b> <b>(1 oral + 1 poster)</b>.
+			<li style="font-size: 16px">
+                <b>[09/2019]</b> One paper on imitation learning from observations is accepted to <b><font color="black">NeurIPS 2019</font></b> as <b>spotlight</b>.
+			<li style="font-size: 16px">
+                <b>[06/2019]</b> My B.Eng. thesis won the <b>Outstanding Thesis Award</b> at Tsinghua University.
+            </li>
+		</ul>
+	</div>
+	
+	<!-- Publications -->
+	<div class="container">
+		<h3 id="Publication" style="padding-top: 80px; margin-top: -80px;">Selected Publications</h3><hr>
+
+		<h4 id="Preprint" style="padding-top: 40px; margin-top: -40px;">Preprint</h4>
+        <!-- AAAI20a-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/cdmp_arxiv18.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                Mingxuan Jing*, 
+                Fuchun Sun and 
+                <a href="https://sites.google.com/site/thuliuhuaping/home">Huaping Liu</a>
+				<br>
+				<b><font color="black">Learning and Inferring Movement from Demonstrations with Deep Generative Model</font></b><br>
+                <a href="https://arxiv.org/abs/1805.07252"><b>arXiv preprint</b></a>&nbsp;/
+					<a target="_blank" href="file/cdmp_arxiv18.pdf">Paper</a>&nbsp;/
+					Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1805.07252">arXiv</a>&nbsp;/
+					<a target="_blank" href="https://github.com/tsinghua-rll/CDMP">Code</a>&nbsp;
+                <br>
+                also in <a target="_blank" href="https://sites.google.com/view/mbrl-icml2019/home">Generative Modeling and Model-Based Reasoning for Robotics and AI Workshop @ <b>ICML 2019</b></a><br>
+			</div>
+		</div>
+        <br>
+
+		<h4 id="Conferences" style="padding-top: 40px; margin-top: -40px;">Conference</h4>
+        <!-- AAAI20a-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/openlock_aaai20.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='https://mjedmonds.com'>Mark Edmonds</a>,
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>, 
+                <a href='http://web.cs.ucla.edu/~syqi'>Siyuan Qi</a>,
+                <a href="https://yzhu.io">Yixin Zhu</a>,
+                <a href="http://cvl.psych.ucla.edu/">Hongjing Lu</a> and 
+                <a href="http://www.stat.ucla.edu/~sczhu">Song-Chun Zhu</a>
+				<br>
+				<b><font color="black">Theory-based Causal Transfer: Integrating Instance-level Induction and Abstract-level Structure Learning</font></b><br>
+                <a target="_blank" href="https://aaai.org/Conferences/AAAI-20/"><b>AAAI 2020</b></font></a>&nbsp;/
+					<a target="_blank" href="file/openlock_aaai20.pdf">Paper</a>&nbsp;/
+					Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1911.11185">arXiv</a>&nbsp;/
+					<a target="_blank" href="https://github.com/mjedmonds/OpenLockLearner-AAAI20">Code</a>&nbsp;
+                <br>
+                <font color="firebrick"> Oral presentation</font>
+			</div>
+		</div><br>
+
+        <!-- AAAI20b-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/mcpo_aaai20.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                Mingxuan Jing*,
+                <a href="https://sites.google.com/site/wenbinghuangshomepage/home">Wenbing Huang</a>,
+                Fuchun Sun,
+                Bin Fang and
+                <a href="https://sites.google.com/site/thuliuhuaping/home">Huaping Liu</a>
+				<br>
+				<b><font color="black">Reinforcement Learning from Imperfect Demonstrations under Soft Expert Guidance</font></b><br>
+                <a target="_blank" href="https://aaai.org/Conferences/AAAI-20/"><b>AAAI 2020</b></font></a>&nbsp;/
+					<a target="_blank" href="file/mcpo_aaai20.pdf">Paper</a>&nbsp;/
+					Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1911.07109">arXiv</a>&nbsp;/
+					Code&nbsp;
+                    <br>    
+                also in <a target="_blank" href="http://spirl.info/2019">Structure & Priors in Reinforcement Learning Workshop @ <b>ICLR 2019</b></a><br>
+			</div>
+        </div><br>
+
+        <!-- NeurIPS19-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/maxentlfo_neurips19.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                Chao Yang*,
+                <a href="https://sites.google.com/site/wenbinghuangshomepage/home">Wenbing Huang</a>*,
+                Fuchun Sun,
+                <a href="https://sites.google.com/site/thuliuhuaping/home">Huaping Liu</a>,
+                <a href="http://ranger.uta.edu/~huang/">Junzhou Huang</a> and
+                <a href="http://people.csail.mit.edu/ganchuang/">Chuang Gan</a>,
+				<br>
+				<b><font color="black">Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement</font></b><br>
+                <a target="_blank" href="https://nips.cc/Conferences/2019"><b>NeurIPS 2019</b></font></a>&nbsp;/
+					<a target="_blank" href="file/maxentlfo_neurips19.pdf">Paper</a>&nbsp;/
+					Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1910.04417">arXiv</a>&nbsp;/
+					Code&nbsp;
+                <br>
+                <font color="firebrick"> Spotlight presentation</font>
+			</div>
+        </div><br>
+
+        <!-- IROS19-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/pouringnet_iros19.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href="https://tams.informatik.uni-hamburg.de/people/liang">Hongzhuo Liang</a>,
+                <a href="https://tams.informatik.uni-hamburg.de/people/sli">Shuang Li</a>,
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>, 
+                <a href="https://tams.informatik.uni-hamburg.de/people/hendrich">Norman Hendrich</a>,
+                <a href="https://www.inf.uni-hamburg.de/en/inst/ab/sp/people/gerkmann.html">Timo Gerkmann</a>,
+                Fuchun Sun and
+                <a href="https://tams.informatik.uni-hamburg.de/people/zhang">Jianwei Zhang</a>
+				<br>
+				<b><font color="black">Making Sense of Audio Vibration for Liquid Height Estimation in Robotic Pouring</font></b><br>
+                <a target="_blank" href="https://iros2019.org"><b>IROS 2019</b></font></a>&nbsp;/
+					<a target="_blank" href="file/pouringnet_iros19.pdf">Paper</a>&nbsp;/
+                    <a target="_blakc" href="https://lianghongzhuo.github.io/AudioPouring/">Project Page</a>&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1910.04417">arXiv</a>&nbsp;/
+                    <a target="_blank" href="https://github.com/lianghongzhuo/AudioPouring">Code</a>&nbsp;/
+                    <a target="_blank" href="https://www.youtube.com/watch?v=Za8dDjGFE1k">Video</a>&nbsp;
+			</div>
+        </div><br>
+
+        <!-- ICRA19a-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/pointnetgpd_icra19.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                <a href="https://tams.informatik.uni-hamburg.de/people/liang">Hongzhuo Liang</a>*,
+                <a href="https://tams.informatik.uni-hamburg.de/people/sli">Shuang Li</a>,
+                <a href="https://tams.informatik.uni-hamburg.de/people/goerner">Michael Görner</a>,
+                Song Tang,
+                Bin Fang,
+                Fuchun Sun and
+                <a href="https://tams.informatik.uni-hamburg.de/people/zhang">Jianwei Zhang</a>
+				<br>
+				<b><font color="black">PointNetGPD: Detecting Grasp Configurations from Point Sets</font></b><br>
+                <a target="_blank" href="https://icra2019.org"><b>ICRA 2019</b></font></a>&nbsp;/
+					<a target="_blank" href="file/pointnetgpd_icra19.pdf">Paper</a>&nbsp;/
+                    <a target="_blakc" href="https://lianghongzhuo.github.io/PointNetGPD/">Project Page</a>&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1809.06267">arXiv</a>&nbsp;/
+                    <a target="_blank" href="https://github.com/lianghongzhuo/PointNetGPD">Code</a>&nbsp;/
+                    <a target="_blank" href="https://www.youtube.com/watch?v=RBFFCLiWhRw">Video</a>&nbsp;
+			</div>
+        </div><br>
+
+        <!-- ICRA19b-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/teachnet_icra19.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                <a href="https://tams.informatik.uni-hamburg.de/people/sli">Shuang Li</a>*,
+                <a href="https://tams.informatik.uni-hamburg.de/people/liang">Hongzhuo Liang</a>,
+                <a href="https://tams.informatik.uni-hamburg.de/people/goerner">Michael Görner</a>,
+                <a href="https://tams.informatik.uni-hamburg.de/people/ruppel">Philipp Ruppel</a>,
+                Bin Fang,
+                Fuchun Sun and
+                <a href="https://tams.informatik.uni-hamburg.de/people/zhang">Jianwei Zhang</a>
+				<br>
+				<b><font color="black">Vision-based Teleoperation of Shadow Dexterous Hand using End-to-End Deep Neural Network</font></b><br>
+                <a target="_blank" href="https://icra2019.org"><b>ICRA 2019</b></font></a>&nbsp;/
+					<a target="_blank" href="file/teachnet_icra19.pdf">Paper</a>&nbsp;/
+                    Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1809.06268">arXiv</a>&nbsp;/
+                    <a target="_blank" href="https://github.com/Smilels/TeachNet_Teleoperation">Code</a>&nbsp;/
+                    <a target="_blank" href="https://www.youtube.com/watch?v=I1FTJ87CtDs">Video</a>&nbsp;
+			</div>
+        </div><br>
+
+        <!-- AAAI19-->
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="img/pbganirl_aaai19.png" alt="">
+			</div>
+			<div class="col-md-9">
+                <a href='http://web.cs.ucla.edu/~xm'><b>Xiaojian Ma</b></a>*, 
+                Mingxuan Jing*,
+                <a href="https://sites.google.com/site/wenbinghuangshomepage/home">Wenbing Huang</a>,
+                Fuchun Sun and
+                <a href="https://sites.google.com/site/thuliuhuaping/home">Huaping Liu</a>
+				<br>
+                <b><font color="black">Task Transfer by Preference-Based Cost Learning</font></b><br>
+                <a target="_blank" href="https://aaai.org/Conferences/AAAI-19/"><b>AAAI 2019</b></font></a>&nbsp;/
+					<a target="_blank" href="file/pbganirl_aaai19.pdf">Paper</a>&nbsp;/
+                    Project Page&nbsp;/
+					<a target="_blank" href="https://arxiv.org/abs/1805.04686">arXiv</a>&nbsp;/
+                    Code&nbsp;
+                <br>
+                <font color="firebrick"> Spotlight presentation</font>
+			</div>
+        </div><br>
+
+	</div>
+
+	<!-- Education -->
+	<div class="container">
+        <h3 id="Education" style="padding-top: 80px; margin-top: -80px;">Education</h3><hr>
+		<ul>
+			<li>
+				2019.9 - present, University of California, Los Angeles<br>
+				M.S. in Computer Science
+			</li>
+			<li>
+				2014.9 - 2019.7, Tsinghua University<br>
+				B.Eng. in Computer Science
+			</li>
+		</ul>
+	</div>
+
+	<!-- Experience -->
+	<div class="container">
+        <h3 id="Experience" style="padding-top: 80px; margin-top: -80px;">Experience</h3><hr>
+		<ul>
+			<li>
+				2019.6 - 2019.9, Research Intern, ByteDance AI Lab<br>
+                Advisors: Dr. <a href="http://www.cs.cmu.edu/~./leili/index.html">Lei Li</a> and Dr. <a href="http://taokong.github.io/">Tao Kong</a>.
+			</li>
+			<li>
+				2017.5 - 2019.7, Research Assistant, Tsinghua University, Robot Learning Lab<br>
+                Advisors: Prof. Fuchun Sun, Prof. <a href="https://sites.google.com/site/thuliuhuaping/home">Huaping Liu</a> and Dr. <a href="https://sites.google.com/site/wenbinghuangshomepage/home">Wenbing Huang</a>.
+			</li>
+			<li>
+				2018.7 - 2018.11, Research Intern, University of California, Los Angeles, Center for Vision, Cognition, Learning and Autonomy<br>
+                Advisors: Prof. <a href="http://www.stat.ucla.edu/~sczhu/" target="_blank">Song-Chun Zhu</a>, Dr. <a href="https://yzhu.io">Yixin Zhu</a> and <a href="https://mjedmonds.com">Mark Edmonds</a>.
+			</li>
+			<li>
+				2017.7 - 2017.9, Research Intern, National University of Singapore, School of Computer Science, CVRP Lab<br>
+				Advisor: Prof. <a href="https://sites.google.com/site/gimheelee/home" target="_blank">Gim Hee Lee</a>.
+			</li>
+		</ul>
+	</div>
+
+	<!-- Teaching -->
+	<div class="container">
+		<h3 id="Teaching" style="padding-top: 80px; margin-top: -80px;">Teaching</h3><hr>
+		<ul>
+            <li><p><b>STATS 115: Probabilistic Decision Making</b>, UCLA (w/ Prof. Tao Gao), Winter 2020</p></li>
+		</ul>
+		<br>
+	</div>
+
+	<!-- Honor -->
+	<div class="container">
+		<h3 id="Honors" style="padding-top: 80px; margin-top: -80px;">Selected Awards and Grants</h3><hr>
+		<ul>
+            <li><p><b>NeurIPS Travel Award</b>, 2019</p></li>
+            <li><p><b>AAAI Travel Award</b>, 2019</p></li>
+            <li><p><b>Outstanding Undergraduate Thesis Award</b>, Tsinghua University, 2019</p></li>
+            <li><p><b>Student Research Fellowship</b>, Tsinghua University, 2016-2017</p></li>
+		</ul>
+		<br>
+	</div>
+	
+	<!-- Services -->
+	<div class="container">
+		<h3 id="Service" style="padding-top: 80px; margin-top: -80px;">Professional Service</h3><hr>
+        <ul>
+            <li><b>Conference PC Member/Reviewer</b>: ICML, AAAI, CVPR, ICCV, ECCV, WACV, IROS</li>
+            <li><b>Journal Reviewer</b>: <a href="http://www.aas.net.cn/CN/volumn/current.shtml">AAS</a>, <a href="http://www.ieee-jas.org/">IEEE/CAA JAS</a></li>
+		</ul>
+		<br>
+	</div>
+
+	<!-- Contact -->
+	<div class="container">
+		<h3 id="Contact" style="padding-top: 80px; margin-top: -80px;">Contact</h3><hr>
+		UCLA Center for Vision, Cognition, Learning and Autonomy <br>
+		3878 Slitcher Hall<br>
+        603 Charles E Young Dr E <br>
+        Los Angeles, CA 90024 <br>
+		xm [at] cs [dot] ucla [dot] edu <br>
+		<a href="https://scholar.google.com/citations?user=xZec9goAAAAJ">[<span style="color:#0000ff">G</span><span style="color:#ff0000">o</span><span style="color:#ffd700">o</span><span style="color:#0000ff">g</span><span style="color:#008000">l</span><span style="color:#ff0000">e</span> Scholar]</a> &nbsp;| &nbsp;<a href="https://github.com/jeasinema">[GitHub]</a> &nbsp;
+		<br>
+	</div>
+
+	<!-- Footer -->
+	<div class="container">
+		<br><hr>
+		<div class="row">
+			<div class="col-md-9">
+				<p align="left">&copy; Xiaojian Ma 2019</p>
+			</div>
+			<div class="col-md-3">
+				<span style="float: right;">
+                    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=SOao3eeEOxmGJm2zvBirZBmhploRlKP0aTkiG515ji4&cl=ffffff&w=a"></script>
+                </span>				
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+	<link href="file/custom.css" rel="stylesheet">
+
+</html>
